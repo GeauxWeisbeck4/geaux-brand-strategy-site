@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+
+<h1>Latest 3 Posts</h1>
+
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+
+<h1>Links</h1>
+<ul>
+  <li><a href="https://github.com/mjgs/eleventy-agile-blog">Eleventy Agile Blog Github Repo</a></li>
+  <li><a href="https://www.11ty.dev/docs">Eleventy Docs</a></li>
+  <li><a href="https://www.markdownguide.org/basic-syntax">Markdown Syntax Guide</a></li>
+  <li><a href="https://www.epochconverter.com/weeks/2020">Week Numbers for 2020</a></li>
+  <li><a href="https://github.com/mozilla/nunjucks">Nunjucks Github</a></li>
+</ul>
