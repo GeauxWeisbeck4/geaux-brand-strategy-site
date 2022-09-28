@@ -1,18 +1,19 @@
 ---
-title: Improve done tags display
-description: This is a backlog task.
-date: 2020-08-23 17:01:00.00 +7
+title: Module 3 Notes
+description: These are the module 3 notes.
+date: 2022-09-26 17:01:00.00 +7
 tags:
   - backlog
-  - Week38
+  - Week39
 layout: layouts/story.njk
 ---
 ## Description
-
-Update template so that story tags on done and backlog pages display all on one line, similar to how they are displayed on the tags pages.
-
+Notes for module 3, plus case studies and everything else related to the module.
 ## Tasks
-
+- Watch Module 3 videos
+- Fill out notes for case studies and module 3
+- Answer conversations with peers questions
+- Make a module 3 reflection post or include in daily refection for day.
 -
 
 

@@ -3,7 +3,7 @@ title: Setup personal agile environment
 description: This is a backlog task.
 date: 2022-09-18 17:00:00.00 +7
 tags:
-  - backlog
+  - done
   - Week38
 layout: layouts/story.njk
 ---
