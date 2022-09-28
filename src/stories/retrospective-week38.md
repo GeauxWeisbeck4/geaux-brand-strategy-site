@@ -1,16 +1,34 @@
 ---
-title: Retrospective for week 34 sprint
+title: Retrospective for week 38 sprint
 description: This is a backlog task.
 date: 2020-08-24 17:27:00.00 +7
 tags:
   - done
-  - Week34
+  - Week38
   - retrospective
 layout: layouts/story.njk
 ---
 ## Description
 
-Review sprint for week 34.
+Review sprint for week 38.
+
+## Review
+
+I set up my agile environment this week and then started working on the Brand Strategy Sprint first week. I learned about:
+### - Three lines of business
+1. Perceived Value
+2. Price
+3. Cost to produce
+### - Clock Model
+### - Pre, post, and purchase phases
+### - Three Hurdles Framework
+1. Differentiation - stands out vs other similar things
+2. Relevance - Does anyone care
+3. Sustainability - Can we keep it going
+
+
+More on this later when I can move my notes over.
+
 
 ## Functionality
 

@@ -180,11 +180,13 @@ pre {
 .hero-text {
   font-size: 1.15em;
   margin-left: 50px;
+  margin-bottom: 25px;
 }
 .hero-button {
   background-color: #31cb9d;
   color: #000;
   font-size: 1.5em;
+  text-decoration: none;
   border-color: #31cb9d;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -193,8 +195,9 @@ pre {
 }
 .hero-button:hover {
   background-color: #23dccc;
-  color: #000;
+  color: #fff;
   font-size: 1.5em;
+  text-decoration: none;
   border-color: #23dccc;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -205,6 +208,7 @@ pre {
   background-color: #2cafd3;
   color: #fff;
   font-size: 1.5em;
+  text-decoration: none;
   border-color: #2cafd3;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -215,6 +219,7 @@ pre {
   background-color: #d72899;
   color: #fff;
   font-size: 1.5em;
+  text-decoration: none;
   border-color: #d72899;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

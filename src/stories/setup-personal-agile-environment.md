@@ -4,15 +4,18 @@ description: This is a backlog task.
 date: 2022-09-18 17:00:00.00 +7
 tags:
   - backlog
-  - Week1
+  - Week38
 layout: layouts/story.njk
 ---
 
 ## Blog posts
 
 - ~~[Setup personal agile environment](/posts/setup-personal-agile-environment)~~
-- ~~[Refactor personal agile environment](/posts/refactor-basic-personal-agile-environment)~~
-- ~~[Agile environment starting to emerge](/posts/agile-environment-starting-to-emerge)~~
+- ~~[Module One Notes](/posts/module-one-notes)~~
+- ~~[Module Two Notes](/posts/module-two-notes)~~
+- ~~[Ford vs. Ferrari Case Study](/posts/ford-vs-ferrari-case-study)~~
+- ~~[Ledger Case Study](/posts/ledger-case-study)~~
+- ~~[Telegram Case Study](/posts/telegram-case-study)~~
 
 ## Tasks
 
