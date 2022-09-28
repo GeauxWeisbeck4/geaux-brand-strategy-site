@@ -1,20 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Geaux Brand Strategy Sprint",
+  "url": "https://geauxbrandstrategysprint.netlify.app/",
+  "description": "This agile sprint website shares Andrew Weisbeck's experience in the brand strategy sprint.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "This agile sprint website shares Andrew Weisbeck's experience in the brand strategy sprint.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://geauxbrandstrategy.netlify.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://geauxbrandstrategy.netlify.app/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Andrew Weisbeck",
+    "email": "andrew@tarheeldevstudio.com",
+    "url": "https://geauxbrandstrategy.netlify.app//about-me/"
   }
 }

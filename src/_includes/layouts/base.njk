@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+      <a href="{{ '/' | url }}"><img src="/img/logo.svg" alt="Geaux Section 4 Sprints" class="home" /></a>
 
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
@@ -24,15 +24,15 @@
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
-      <!-- Delete this message -->
-      <div class="warning">
-        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
-      <!-- Stop deleting -->
+
+
+
 
       {{ content | safe }}
     </main>
-
+    <div class="warning">
+      <p>This is a <a href="https://geaux-section4.netlify.app">Geaux Section 4 Sprint</a> created with the <em><a href="https://geauxsprintsystem.netlify.app">Geaux Sprint System</a></em></p>
+    </div>
     <footer></footer>
 
     <!-- Current page: {{ page.url | url }} -->

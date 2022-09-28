@@ -4,20 +4,36 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
+<div class="hero-container">
+<div>
+    <h1 class="hero-header">Geaux Brand Strategy Sprint</h1>
+    <p class="hero-text">Welcome to the Brand Strategy Sprint website for Andrew Weisbeck! This is a Section 4 business sprint, taught by Scott Galloway, aka "Prof G". This website contains Andrew's workflow using his new Geaux Sprint Method and System while learning about how to improve his Tar Heel Dev Studio and GeauxWeisbeck4 brands.</p>
+    <p class="hero-text">To follow Andrew's progress on the sprint, click on one of the buttons below to check out the blog or to get the run down on how he organizes his sprints. Enjoy learning more!</p>
+    <button class="hero-button" href="https://geauxbrandstrategy.netlify.app/blog">Read Blog</button>
+    <button class="hero-button2" href="https://geauxbrandstrategy.netlify.app/sprints">Checkout Sprint</button>
+</div>
+<div class="icontainer">
+  <img src="img/heroimage_home.png" class="hero-img" alt="Hero Image on website" />
+</div>
+</div>
 
-<h1>Latest 3 Posts</h1>
+<div class="posts-container">
+<h2>Latest 3 Posts</h2>
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+</div>
 
+<div class="posts-container">
 <h1>Links</h1>
 <ul>
   <li><a href="https://github.com/mjgs/eleventy-agile-blog">Eleventy Agile Blog Github Repo</a></li>
   <li><a href="https://www.11ty.dev/docs">Eleventy Docs</a></li>
   <li><a href="https://www.markdownguide.org/basic-syntax">Markdown Syntax Guide</a></li>
-  <li><a href="https://www.epochconverter.com/weeks/2020">Week Numbers for 2020</a></li>
+  <li><a href="https://www.epochconverter.com/weeks/2022">Week Numbers for 2022</a></li>
   <li><a href="https://github.com/mozilla/nunjucks">Nunjucks Github</a></li>
 </ul>
+</div>
