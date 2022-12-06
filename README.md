@@ -1,41 +1,26 @@
-# eleventy-agile-blog
+# Geaux Brand Strategy Site 
 
-A minimal blog template using [Eleventy](https://github.com/11ty/eleventy), this one implements a simple agile development workflow so you can get stuff done.
+This site was created with an [Eleventy starter made for a simple agile development workflow](https://github.com/11ty/eleventy-agile-blog) and was used to create a website for my Section 4 Brand Strategy Sprint through Section 4.
 
 ## Description
 
-Of course there are lots of great tools for managing agile development and if you are working in teams you should most likely use those. 
+My goal is to create a website for every business sprint that I do in Section 4. I know I was busy when I initially did them, but I am going to go back through and create websites for all of them and update them to reflect courses I may or may not have finished.
 
-But this project is a great way to manage your own development.
+I hate that I had such a shitty year for such a great slate of courses. Maybe I'll get to poke through them before the end of the year or I'll be able to afford th subscription next year. This is why somebody should hire me - so I can learn more and teach others what I know.
 
-- Everything is managed in files
-- Never worry about your workflow breaking because of software incompatibility
-- Build your muscle memory of the agile development process
+## Live Website
 
-You can run it locally or deploy on something like netlify if you want to have everything public.
-
-Use it for managing writting code or just for managing any set of tasks you need to complete.
-
-I don't claim to be in any way an expert in the agile way. There are probably places where it's not "the agile" way. I'm open to pull requests.
-
-Stop procrastinating, write a blog post, re-focus on what you need to get done, then do it.
-
-## Based on
-
-I have based this repo on the [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog), the biggest obvious difference is files are in src and dist folders. I find that makes it easier to jump around the project quickly.
-
-## Demos
-
-* [eleventy-agile-blog.markjgsmith.com](https://eleventy-agile-blog.markjgsmith.com)
+* [Geaux Brand Strategy](https://geauxbrandstrategy.netlify.app/)
 
 ## Getting Started
 
 ```
-git clone https://github.com/11ty/eleventy-agile-blog.git my-blog-name
+git clone https://github.com/GeauxWeisbeck4/geaux-brand-strategy-site.git my-blog-name
 cd my-blog-name # Update `.eleventy.js` with your details
 npm install
 npm start
 ```
+# Now more from the original template to learn about Agile...
 
 ## How the agile development workflow works
 
